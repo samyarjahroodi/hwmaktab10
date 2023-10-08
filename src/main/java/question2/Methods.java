@@ -21,7 +21,7 @@ public class Methods {
     public static void collectList(TreeSet<Character> character1, TreeSet<Character> character2) {
         TreeSet<Character> combinedSet = new TreeSet<>(character1);
         combinedSet.addAll(character2);
-        System.out.println(combinedSet);
+        System.out.println("Combined both list is: "+combinedSet);
     }
 
     public static void findSimilarChar(TreeSet<Character> character1, TreeSet<Character> character2) {
